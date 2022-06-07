@@ -37,7 +37,10 @@ const Home = () => {
                 className="box-border inline-block overflow-hidden relative opacity-100"
                 style={{ maxWidth: "100%" }}
               >
-                <span className="border-box block opacity-100 border-0 p-0 m-0" style={{ maxWidth: "100%" }}>
+                <span
+                  className="border-box block opacity-100 border-0 p-0 m-0"
+                  style={{ maxWidth: "100%" }}
+                >
                   {/* <img
                     style={{ maxWidth: "100%" }}
                     className="p-0 m-0 border-0 opacity-100 block"
@@ -67,7 +70,13 @@ const Home = () => {
             to="intro"
             className="absolute left-6 -top-4 px-2 py-2.5 text-brown-100 bg-brown-500 hover:bg-brown-900 rounded-sm transition z-10 sm:left-14 lg:left-28 cursor-pointer"
           >
-            <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg
+              width="16"
+              height="11"
+              viewBox="0 0 16 11"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
                 d="M1.88 0.453339L8 6.56001L14.12 0.453339L16 2.33334L8 10.3333L0 2.33334L1.88 0.453339Z"
                 fill="currentColor"
@@ -79,10 +88,13 @@ const Home = () => {
             className="flex justify-end p-6 sm:p-8 rounded-md bg-brown-100 sm:p-14 lg:pl-28 lg:pr-24 lg:py-36"
           >
             <div className="lg:w-1/2 lg:pl-20">
-              <h1 className="mb-8 text-3xl headings-font sm:text-5xl">Welcome to Shark Tank</h1>
+              <h1 className="mb-8 text-3xl headings-font sm:text-5xl">
+                Welcome to Shark Tank
+              </h1>
               <p className="mb-8 font-WorkSans">
-                Join the frenzy, and explore the possibilities. We are on a mission to develop the unique Web3 brand
-                together with our community and our shared passion for NFTs and gaming!
+                Join the frenzy, and explore the possibilities. We are on a
+                mission to develop the unique Web3 brand together with our
+                community and our shared passion for NFTs and gaming!
               </p>
               <a
                 href="https://discord.gg/KrDdaGhY7b"
@@ -109,48 +121,136 @@ const Home = () => {
           </Element>
           <div className="max-w-md flex items-start gap-3.5 mx-auto mt-14 mb-4 lg:max-w-sm lg:absolute lg:top-32 lg:left-28 lg:my-0 xl:max-w-md">
             <div className="relative max-h-[915px] overflow-hidden pointer-events-none">
-              <Slider intialStarter={30} resetPoint={-1850} slideSpeed={12} slideType="top">
-                <img className="block mb-2 w-[217px]" src={Fish1} alt="fish 1" />
-                <img className="block mb-2 w-[217px]" src={Fish2} alt="fish 2" />
-                <img className="block mb-2 w-[217px]" src={Fish3} alt="fish 3" />
-                <img className="block mb-2 w-[217px]" src={Fish4} alt="fish 4" />
-                <img className="block mb-2 w-[217px]" src={Fish5} alt="fish 5" />
-                <img className="block mb-2 w-[217px]" src={Fish1} alt="fish 1" />
-                <img className="block mb-2 w-[217px]" src={Fish2} alt="fish 2" />
-                <img className="block mb-2 w-[217px]" src={Fish3} alt="fish 3" />
-                <img className="block mb-2 w-[217px]" src={Fish4} alt="fish 4" />
-                <img className="block mb-2 w-[217px]" src={Fish5} alt="fish 5" />
+              <Slider
+                intialStarter={30}
+                resetPoint={-1850}
+                slideSpeed={12}
+                slideType="top"
+              >
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish1}
+                  alt="fish 1"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish2}
+                  alt="fish 2"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish3}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish4}
+                  alt="fish 4"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish5}
+                  alt="fish 5"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish1}
+                  alt="fish 1"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish2}
+                  alt="fish 2"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish3}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish4}
+                  alt="fish 4"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish5}
+                  alt="fish 5"
+                />
               </Slider>
             </div>
             <div className="relative mt-[25%] max-h-[915px] overflow-hidden pointer-events-none">
               <Slider intialStarter={-1000} resetPoint={20} slideSpeed={12}>
-                <img className="block mb-2 w-[217px]" src={Fish1} alt="fish 1" />
-                <img className="block mb-2 w-[217px]" src={Fish2} alt="fish 2" />
-                <img className="block mb-2 w-[217px]" src={Fish3} alt="fish 3" />
-                <img className="block mb-2 w-[217px]" src={Fish4} alt="fish 4" />
-                <img className="block mb-2 w-[217px]" src={Fish5} alt="fish 5" />
-                <img className="block mb-2 w-[217px]" src={Fish1} alt="fish 4" />
-                <img className="block mb-2 w-[217px]" src={Fish2} alt="fish 2" />
-                <img className="block mb-2 w-[217px]" src={Fish3} alt="fish 3" />
-                <img className="block mb-2 w-[217px]" src={Fish3} alt="fish 1" />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish1}
+                  alt="fish 1"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish2}
+                  alt="fish 2"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish3}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish4}
+                  alt="fish 4"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish5}
+                  alt="fish 5"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish1}
+                  alt="fish 4"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish2}
+                  alt="fish 2"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish3}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish3}
+                  alt="fish 1"
+                />
               </Slider>
             </div>
           </div>
-          <Element name="purchase" className="flex justify-end p-6 py-10 sm:p-14 lg:pl-28 lg:pr-24 lg:py-36">
+          <Element
+            name="purchase"
+            className="flex justify-end p-6 py-10 sm:p-14 lg:pl-28 lg:pr-24 lg:py-36"
+          >
             <div className="text-brown-100 lg:w-1/2 lg:pl-20">
-              <h2 className="mb-8 text-3xl sm:text-5xl headings-font">Shark Tank NFT -Tech Pass- your key to Web 3</h2>
+              <h2 className="mb-8 text-3xl sm:text-5xl headings-font">
+                Shark Tank NFT -Tech Pass- your key to Web 3
+              </h2>
               <p className="mb-6 font-WorkSans">
-                Web 3.0 is a wide new world with endless possibilities and new experiences, and Shark Tank is the key to
-                unlocking this world.
+                Web 3.0 is a wide new world with endless possibilities and new
+                experiences, and Shark Tank is the key to unlocking this world.
               </p>
               <p className="mb-6 font-WorkSans">
-                Join the frenzy, and explore the possibilities. We are on a mission to develop a unique Web3 development
-                brand together with our community and our shared passion for NFTs and gaming! Soon to be released a
-                Community Vs Community fun battle game, and more!
+                Join the frenzy, and explore the possibilities. We are on a
+                mission to develop a unique Web3 development brand together with
+                our community and our shared passion for NFTs and gaming! Soon
+                to be released a Community Vs Community fun battle game, and
+                more!
               </p>
               <p className="mb-6 font-WorkSans">
-                The initial sale of the Shark Tank Tech Pass will be announced soon. Check back soon for the Release
-                Date.
+                The initial sale of the Shark Tank Tech Pass will be announced
+                soon. Check back soon for the Release Date.
               </p>
               <button
                 target="_blank"
@@ -180,7 +280,9 @@ const Home = () => {
                   fill="#fff"
                 ></path>
               </svg>
-              <p className="mb-4 text-6xl headings-font text-brown-100 headings-font">1K</p>
+              <p className="mb-4 text-6xl headings-font text-brown-100 headings-font">
+                1K
+              </p>
               <p className="text-2xl font-WorkSans text-white">
                 Discord <br /> Members
               </p>
@@ -290,7 +392,10 @@ const Home = () => {
                 <br /> The SharkTank Tech Pass
               </h2>
               <div className="-mt-12 lg:-mt-16">
-                <span className="border-box block opactiy-100 border-0 m-0 p-0 relative" style={{ maxWidth: "800px" }}>
+                <span
+                  className="border-box block opactiy-100 border-0 m-0 p-0 relative"
+                  style={{ maxWidth: "800px" }}
+                >
                   <img src={Campfire} alt="Hologram" title="Hologram" />
                 </span>
               </div>
@@ -329,7 +434,7 @@ const Home = () => {
               <Card
                 cardImage={NetworkCard}
                 cardTitle="Expand your network"
-                cardDescription="Joining the Shark Tank community opens the door to a global network of like-minded people from all walks of life. Our community is filled with welcoming individuals who love to connect with newcomers."
+                cardDescription="Joining the Shark Lab community opens the door to a global network of like-minded people from all walks of life. Our community is filled with welcoming individuals who love to connect with newcomers."
                 cardColor="#bb3dbe"
               />
             </div>
@@ -394,7 +499,9 @@ const Home = () => {
           <Element
             name="roadmap"
             className={` ${
-              imageZoomedIn ? "fixed z-50 w-full h-screen left-0 bg-white top-0" : "relative -mx-5"
+              imageZoomedIn
+                ? "fixed z-50 w-full h-screen left-0 bg-white top-0"
+                : "relative -mx-5"
             } scroll-mt-28 transition ease-in-out duration-500`}
           >
             <img
