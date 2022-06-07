@@ -1,7 +1,10 @@
 import { FaDiscord, FaInstagram } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { GrLinkedinOption } from "react-icons/gr";
-import { animateScroll as scroll, Link as SmothLink } from "react-scroll/modules";
+import {
+  animateScroll as scroll,
+  Link as SmothLink,
+} from "react-scroll/modules";
 import { scroller } from "react-scroll";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
@@ -33,11 +36,22 @@ const Footer = () => {
           onClick={() => scroll.scrollToTop()}
           className="absolute left-2 -top-20 px-2 py-2.5 text-brown-100 bg-brown-500 hover:bg-brown-900 rounded-sm transition z-10 lg:left-28 cursor-pointer"
         >
-          <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M14.12 10.547 8 4.44l-6.12 6.107L0 8.667l8-8 8 8-1.88 1.88Z" fill="#F5F2EC"></path>
+          <svg
+            width="16"
+            height="11"
+            viewBox="0 0 16 11"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.12 10.547 8 4.44l-6.12 6.107L0 8.667l8-8 8 8-1.88 1.88Z"
+              fill="#F5F2EC"
+            ></path>
           </svg>
         </button>
-        <h4 className="mb-10 text-4xl text-center text-brown-100 headings-font sm:text-5xl">Our Partners</h4>
+        <h4 className="mb-10 text-4xl text-center text-brown-100 headings-font sm:text-5xl">
+          Our Partners
+        </h4>
         <ul className="flex items-center flex-wrap justify-center mb-12 sm:mb-16 sm:flex-row"></ul>
         <div className="md:flex md:justify-between md:items-start lg:items-center">
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-14 mb-12 text-brown-500 lg:gap-24 lg:mb-0">
@@ -55,20 +69,30 @@ const Footer = () => {
                 </SmothLink>
               </li>
               <li>
-                <button className="underline transition hover:text-white">Blog</button>
+                <button className="underline transition hover:text-white">
+                  Blog
+                </button>
               </li>
               <li>
-                <Link className="underline transition hover:text-white" to="/privacy-policy">
+                <Link
+                  className="underline transition hover:text-white"
+                  to="/privacy-policy"
+                >
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link className="underline transition hover:text-white" to="/terms-of-service">
+                <Link
+                  className="underline transition hover:text-white"
+                  to="/terms-of-service"
+                >
                   Terms of service
                 </Link>
               </li>
               <li>
-                <button className="underline transition hover:text-white">Smart Contract (TBA)</button>
+                <button className="underline transition hover:text-white">
+                  Smart Contract (TBA)
+                </button>
               </li>
             </ul>
           </div>
@@ -84,8 +108,20 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-brown-500 hover:text-white"
                 >
-                  <svg width="32" height="32" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.784424" width="20" height="20" rx="10" fill="currentColor"></rect>
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.784424"
+                      width="20"
+                      height="20"
+                      rx="10"
+                      fill="currentColor"
+                    ></rect>
                     <path
                       fillRule="evenodd"
                       clipRule="evenodd"
@@ -96,17 +132,35 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://discord.gg/KrDdaGhY7b" target="_blank" rel="noopener noreferrer">
-                  <FaDiscord size={"2rem"} className="p-1 bg-brown-500 rounded-full text-brown-900 hover:text-white" />
+                <a
+                  href="https://discord.gg/KrDdaGhY7b"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaDiscord
+                    size={"2rem"}
+                    className="p-1 bg-brown-500 rounded-full text-brown-900 hover:text-white"
+                  />
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/LazyLionsNFT/" target="_blank" rel="noopener noreferrer">
-                  <BsTwitter size={"2rem"} className="p-1 bg-brown-500 rounded-full text-brown-900 hover:text-white" />
+                <a
+                  href="https://twitter.com/LazyLionsNFT/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BsTwitter
+                    size={"2rem"}
+                    className="p-1 bg-brown-500 rounded-full text-brown-900 hover:text-white"
+                  />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/lazylionsnft/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.instagram.com/lazylionsnft/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaInstagram
                     size={"2rem"}
                     className="p-1 bg-brown-500 rounded-full text-brown-900 hover:text-white"
@@ -140,8 +194,11 @@ const Footer = () => {
               </p>
               <p>
                 Contact us at
-                <a className="text-brown-500 ml-1" href="mailto:admin@sharktank.media">
-                  admin@sharktank.media
+                <a
+                  className="text-brown-500 ml-1"
+                  href="mailto:admin@sharklabs.io"
+                >
+                  admin@sharklabs.io
                 </a>
               </p>
             </div>
