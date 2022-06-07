@@ -252,13 +252,22 @@ const Home = () => {
                 The initial sale of the Shark Tank Tech Pass will be announced
                 soon. Check back soon for the Release Date.
               </p>
-              <button
-                target="_blank"
-                rel="noopener noreferrer"
-                className="glitch font-WorkSans group inline-flex items-center justify-between px-6 py-6 bg-white text-brown-900 rounded-sm transition hover:bg-brown-900 hover:text-white sm:px-18"
-              >
-                Release Date Coming Soon
-              </button>
+              <div className="flex gap-y-3 flex-col w-auto ">
+                <button
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" w-72 glitch font-WorkSans group inline-flex items-center justify-between px-6 py-6 bg-white text-brown-900 rounded-sm transition hover:bg-brown-900 hover:text-white sm:px-18"
+                >
+                  100k NFTs Coming Soon
+                </button>
+                <button
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-72 glitch font-WorkSans group inline-flex items-center justify-between px-6 py-6 bg-white text-brown-900 rounded-sm transition hover:bg-brown-900 hover:text-white sm:px-18"
+                >
+                  Founders Pass Coming Soon
+                </button>
+              </div>
             </div>
           </Element>
         </div>
@@ -404,7 +413,7 @@ const Home = () => {
               <Card
                 cardImage={CommunityCard}
                 cardTitle="Be part of our NFT community"
-                cardDescription="When you join the Shark Tank - by purchasing an NFT or just joining our Discord - you’re instantly part of our community. A global community that empowers and supports each other on this exciting journey into Web3 development. We’re focused on building authentic connections and developing projects."
+                cardDescription="When you join Shark Labs - by purchasing an NFT or just joining our Discord - you instantly become part of our community. A global community that empowers and supports each other on this exciting journey into Web3 development. We’re focused on building authentic connections and developing exciting projects for all."
                 cardColor="#007dff"
               />
               <Card
@@ -416,13 +425,13 @@ const Home = () => {
               <Card
                 cardImage={CommercialCard}
                 cardTitle="Own the full commercial rights"
-                cardDescription="When you purchase a Shark Tank NFTs, the art is totally and completely yours. Whether you want to print and sell merchandise, use it in advertising."
+                cardDescription="When you purchase a Shark Lab NFT, the art is totally and completely yours. Whether you want to print and sell merchandise, use it in advertising."
                 cardColor="#ba1d39"
               />
               <Card
                 cardImage={VoiceCard}
                 cardTitle="Have a voice in the projects"
-                cardDescription="The Shark Tank Founder Pass will give you a voice in the development and success of the projects through private channel and AMAs with the dev team and formalized voting."
+                cardDescription="The Shark Labs Founder Pass will give you a voice in the development and success of the projects through private channels and AMAs with the dev team."
                 cardColor="#13d8bc"
               />
               <Card
