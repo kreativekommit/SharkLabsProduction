@@ -40,7 +40,7 @@ export default function Navbar() {
               className="text-sm headings-font font-bold leading-relaxed text-3xl inline-block mr-4 py-2 whitespace-nowrap uppercase text-brown-500"
               to="/"
             >
-              Shark Tank
+              SHARK LABS
             </Link>
             <button
               className="absolute right-0 text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"

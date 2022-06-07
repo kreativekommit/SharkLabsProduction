@@ -235,22 +235,25 @@ const Home = () => {
           >
             <div className="text-brown-100 lg:w-1/2 lg:pl-20">
               <h2 className="mb-8 text-3xl sm:text-5xl headings-font">
-                Shark Tank NFT -Tech Pass- your key to Web 3
+                Shark Labs NFTs - the key to Web3
               </h2>
               <p className="mb-6 font-WorkSans">
                 Web 3.0 is a wide new world with endless possibilities and new
-                experiences, and Shark Tank is the key to unlocking this world.
+                experiences, and Shark Labs will be a key to unlocking this
+                world.
               </p>
               <p className="mb-6 font-WorkSans">
                 Join the frenzy, and explore the possibilities. We are on a
                 mission to develop a unique Web3 development brand together with
                 our community and our shared passion for NFTs and gaming! Soon
-                to be released a Community Vs Community fun battle game, and
-                more!
+                to be releasing a fun Community Vs Community fun battle game,
+                and more!
               </p>
               <p className="mb-6 font-WorkSans">
-                The initial sale of the Shark Tank Tech Pass will be announced
-                soon. Check back soon for the Release Date.
+                Our exciting initial 100k nft give away - for the beginning of
+                our adventures will be launched soon, in addition to our
+                exclusive Shark Labs Founders Pass. Check back soon for their
+                Release Dates.
               </p>
               <div className="flex gap-y-3 flex-col w-auto ">
                 <button
@@ -395,19 +398,11 @@ const Home = () => {
       <div className="px-5 -mt-72 bg-brown-100">
         <div className="max-w-6xl pt-72 pb-28 mx-auto md:pb-32">
           <Element name="utility" className="mb-14">
-            <div className="md:flex">
+            <div className="flex justify-center">
               <h2 className="w-full mr-8 py-24 text-center headings-font text-5xl md:py-36 md:w-1/2">
                 Benefits of
-                <br /> The SharkTank Tech Pass
+                <br /> The Shark Labs Founders Pass
               </h2>
-              <div className="-mt-12 lg:-mt-16">
-                <span
-                  className="border-box block opactiy-100 border-0 m-0 p-0 relative"
-                  style={{ maxWidth: "800px" }}
-                >
-                  <img src={Campfire} alt="Hologram" title="Hologram" />
-                </span>
-              </div>
             </div>
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
               <Card
