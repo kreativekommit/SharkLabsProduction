@@ -89,7 +89,7 @@ const Home = () => {
           >
             <div className="lg:w-1/2 lg:pl-20">
               <h1 className="mb-8 text-3xl headings-font sm:text-5xl">
-                Welcome to Shark Tank
+                Welcome to Shark Labs
               </h1>
               <p className="mb-8 font-WorkSans">
                 Join the frenzy, and explore the possibilities. We are on a

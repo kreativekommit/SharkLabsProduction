@@ -86,7 +86,7 @@ const Footer = () => {
                   className="underline transition hover:text-white"
                   to="/terms-of-service"
                 >
-                  Terms of service
+                  Terms &amp; Conditions
                 </Link>
               </li>
               <li>

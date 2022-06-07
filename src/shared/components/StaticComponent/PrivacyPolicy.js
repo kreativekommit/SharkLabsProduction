@@ -434,13 +434,13 @@ const PrivacyPolicy = () => {
         mechanism used by us when transferring your Personal Data out of the
         EEA. If you wish to be informed about what Personal Data we hold and
         want it removed from our systems, please contact us at{" "}
-        <a href="mailto:support@SharkLabs.com">support@SharkLabs.com</a>
+        <a href="mailto:support@sharklabs.io">support@sharklabs.io</a>
       </p>
       <h2 className="font-bold">Updating Information</h2>
       <p className="my-4 font-normal">
         You can update your personal or account information by contacting our
         support team at{" "}
-        <a href="mailto:support@SharkLabs.com">support@SharkLabs.com</a>
+        <a href="mailto:support@sharklabs.io">support@sharklabs.io</a>
       </p>
       <p className="my-4 font-normal">
         We will retain your information for as long as your Account is not
@@ -512,7 +512,7 @@ const PrivacyPolicy = () => {
         Account and make the change in your settings. If it doesn&rsquo;t look
         like you can make the change on your own, please reach out to us
         at&nbsp;
-        <a href="mailto:support@SharkLabs.com">support@SharkLabs.com</a>
+        <a href="mailto:support@sharklabs.io">support@sharklabs.io</a>
         &nbsp;and we will make work to correct any errors.
       </p>
       <p className="my-4 font-normal">
@@ -589,7 +589,7 @@ const PrivacyPolicy = () => {
         products or services to you. We will advise you if this is the case at
         the time you withdraw your consent. If you wish to exercise any of the
         rights set out above, please contact us at{" "}
-        <a href="mailto:privacy@SharkLabs.com">privacy@SharkLabs.com</a>.
+        <a href="mailto:privacy@sharklabs.io">privacy@sharklabs.io</a>.
       </p>
       <h2 className="font-bold">Accessing your Information</h2>
       <p className="my-4 font-normal">
@@ -633,8 +633,8 @@ const PrivacyPolicy = () => {
         storage of your Personal Data, or if you wish to exercise any of your
         rights in relation to your personal information, please contact our Data
         Protection Officer (&ldquo;DPO&rdquo;) at{" "}
-        <a href="mailto:privacy@SharkLabs.com">privacy@SharkLabs.com</a>. We
-        will investigate and attempt to resolve any such complaint or dispute
+        <a href="mailto:privacy@sharklabs.io">privacy@sharklabs.io</a>. We will
+        investigate and attempt to resolve any such complaint or dispute
         regarding the use or disclosure of your Personal Data.
       </p>
       <p className="my-4 font-normal">
@@ -643,7 +643,7 @@ const PrivacyPolicy = () => {
         delete the Personal Data. To request the review, update or removal of
         your Personal Data, please contact{" "}
         <a href="https://github.com/kreativekommit/SharkLabsProduction/issues/url">
-          privacy@SharkLabs.com
+          privacy@sharklabs.io
         </a>
       </p>
     </div>
