@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Edo SZ;
+  src: url("./assets/fonts/edosz.ttf");
+}
+
+.headings-font {
+  font-family: Edo SZ, serif;
+}
