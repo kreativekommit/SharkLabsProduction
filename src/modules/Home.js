@@ -370,7 +370,7 @@ const Home = () => {
               </svg>
               <p className="mb-4 text-6xl headings-font text-brown-100">200</p>
               <p className="text-2xl font-WorkSans text-white">
-                Tech Pass <br /> Holders
+                Founder Pass <br /> Holders
               </p>
             </li>
             <li className="text-brown-300">
