@@ -145,36 +145,11 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://twitter.com/LazyLionsNFT/"
+                  href="https://twitter.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <BsTwitter
-                    size={"2rem"}
-                    className="p-1 bg-brown-500 rounded-full text-brown-900 hover:text-white"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/lazylionsnft/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaInstagram
-                    size={"2rem"}
-                    className="p-1 bg-brown-500 rounded-full text-brown-900 hover:text-white"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/company/lazylions"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-brown-500 hover:text-white"
-                >
-                  <GrLinkedinOption
                     size={"2rem"}
                     className="p-1 bg-brown-500 rounded-full text-brown-900 hover:text-white"
                   />

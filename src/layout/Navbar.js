@@ -51,7 +51,10 @@ export default function Navbar() {
             </button>
           </div>
           <div
-            className={"lg:flex flex-grow items-center" + (navbarOpen ? " flex" : " hidden")}
+            className={
+              "lg:flex flex-grow items-center" +
+              (navbarOpen ? " flex" : " hidden")
+            }
             id="example-navbar-danger"
           >
             <ul className="flex flex-col lg:flex-row list-none flex space-x-8">
@@ -97,7 +100,11 @@ export default function Navbar() {
             </ul>
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto items-center">
               <li>
-                <a href="/" target="_blank" className="transition text-brown-500 hover:text-black">
+                <a
+                  href="/"
+                  target="_blank"
+                  className="transition text-brown-500 hover:text-black"
+                >
                   <svg
                     width="28"
                     height="28"
@@ -106,7 +113,13 @@ export default function Navbar() {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <rect x="0.784424" width="20" height="20" rx="10" fill="currentColor"></rect>
+                    <rect
+                      x="0.784424"
+                      width="20"
+                      height="20"
+                      rx="10"
+                      fill="currentColor"
+                    ></rect>
                     <path
                       fillRule="evenodd"
                       clipRule="evenodd"
@@ -127,24 +140,12 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="ml-3">
-                <a href="/" target="_blank" className="transition text-brown-500 hover:text-black">
+                <a
+                  href="/"
+                  target="_blank"
+                  className="transition text-brown-500 hover:text-black"
+                >
                   <AiFillTwitterCircle size={"2rem"} />
-                </a>
-              </li>
-              <li className="ml-3">
-                <a
-                  href="/"
-                  className="transition p-1.5 text-white flex items-center rounded-full bg-brown-500 hover:bg-black"
-                >
-                  <BsInstagram size={"1rem"} />
-                </a>
-              </li>
-              <li className="ml-3">
-                <a
-                  href="/"
-                  className="transition p-1.5 text-white flex items-center rounded-full bg-brown-500 hover:bg-black"
-                >
-                  <FaLinkedinIn size={"1rem"} />
                 </a>
               </li>
             </ul>
