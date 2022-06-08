@@ -15,6 +15,13 @@ import {
   Fish4,
   Fish5,
   Roadmap,
+  BlueFish,
+  BlueDifferent,
+  Green,
+  Purple,
+  Red,
+  WeirdRed,
+  WeirdPurple,
 } from "../assets/images";
 import glitchVideoMP4 from "../assets/videos/glitch.mp4";
 import glitchVideoWEBM from "../assets/videos/glitch.webm";
@@ -100,7 +107,7 @@ const Home = () => {
                 href="https://discord.gg/KrDdaGhY7b"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="glitch font-WorkSans flex items-center justify-between px-4 py-5 text-sm text-brown-100 bg-[#5865F2] rounded-sm transition hover:bg-brown-900 sm:px-6 sm:text-base"
+                className="glitch font-WorkSans flex items-center justify-between px-4 py-4 text-sm text-brown-100 bg-[#5865F2] rounded-sm transition hover:bg-brown-900 sm:px-6 sm:text-base"
               >
                 Join the Frenzy on Discord
                 <svg
@@ -129,14 +136,25 @@ const Home = () => {
               >
                 <img
                   className="block mb-2 w-[217px]"
+                  src={WeirdRed}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
                   src={Fish1}
                   alt="fish 1"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={WeirdPurple}
+                  alt="fish 3"
                 />
                 <img
                   className="block mb-2 w-[217px]"
                   src={Fish2}
                   alt="fish 2"
                 />
+
                 <img
                   className="block mb-2 w-[217px]"
                   src={Fish3}
@@ -144,8 +162,18 @@ const Home = () => {
                 />
                 <img
                   className="block mb-2 w-[217px]"
+                  src={BlueFish}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
                   src={Fish4}
                   alt="fish 4"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={BlueDifferent}
+                  alt="fish 3"
                 />
                 <img
                   className="block mb-2 w-[217px]"
@@ -159,6 +187,11 @@ const Home = () => {
                 />
                 <img
                   className="block mb-2 w-[217px]"
+                  src={Green}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
                   src={Fish2}
                   alt="fish 2"
                 />
@@ -169,9 +202,15 @@ const Home = () => {
                 />
                 <img
                   className="block mb-2 w-[217px]"
+                  src={Purple}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
                   src={Fish4}
                   alt="fish 4"
                 />
+                <img className="block mb-2 w-[217px]" src={Red} alt="fish 3" />
                 <img
                   className="block mb-2 w-[217px]"
                   src={Fish5}
@@ -183,23 +222,8 @@ const Home = () => {
               <Slider intialStarter={-1000} resetPoint={20} slideSpeed={12}>
                 <img
                   className="block mb-2 w-[217px]"
-                  src={Fish1}
-                  alt="fish 1"
-                />
-                <img
-                  className="block mb-2 w-[217px]"
-                  src={Fish2}
-                  alt="fish 2"
-                />
-                <img
-                  className="block mb-2 w-[217px]"
-                  src={Fish3}
+                  src={WeirdPurple}
                   alt="fish 3"
-                />
-                <img
-                  className="block mb-2 w-[217px]"
-                  src={Fish4}
-                  alt="fish 4"
                 />
                 <img
                   className="block mb-2 w-[217px]"
@@ -209,7 +233,12 @@ const Home = () => {
                 <img
                   className="block mb-2 w-[217px]"
                   src={Fish1}
-                  alt="fish 4"
+                  alt="fish 1"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Green}
+                  alt="fish 3"
                 />
                 <img
                   className="block mb-2 w-[217px]"
@@ -223,8 +252,57 @@ const Home = () => {
                 />
                 <img
                   className="block mb-2 w-[217px]"
-                  src={Fish3}
+                  src={WeirdRed}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish1}
                   alt="fish 1"
+                />
+
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish2}
+                  alt="fish 2"
+                />
+
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish3}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={BlueFish}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish4}
+                  alt="fish 4"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={BlueDifferent}
+                  alt="fish 3"
+                />
+
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Purple}
+                  alt="fish 3"
+                />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish4}
+                  alt="fish 4"
+                />
+                <img className="block mb-2 w-[217px]" src={Red} alt="fish 3" />
+                <img
+                  className="block mb-2 w-[217px]"
+                  src={Fish5}
+                  alt="fish 5"
                 />
               </Slider>
             </div>

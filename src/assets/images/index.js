@@ -15,8 +15,22 @@ import networkCard from "./network-card.jpeg";
 import rewardsCard from "./rewards-card.jpeg";
 import voiceCard from "./voice-card.jpeg";
 import roadmap from "./roadmap.webp";
-
+import blueFish from "./blue-fish.jpeg";
+import blueDifferent from "./blue-different.jpeg";
+import green from "./green.jpeg";
+import purple from "./purple.jpeg";
+import red from "./red.jpeg";
+import weirdRed from "./weird-red.jpeg";
+import weirdPurple from "./weired-purple.jpeg";
 import connectDiscord from "./connect_discord.png";
+
+export const BlueFish = blueFish;
+export const BlueDifferent = blueDifferent;
+export const Green = green;
+export const Purple = purple;
+export const Red = red;
+export const WeirdRed = weirdRed;
+export const WeirdPurple = weirdPurple;
 export const ConnectDiscord = connectDiscord;
 export const LogoDark = logoDark;
 export const LogoLight = logoLight;
