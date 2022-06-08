@@ -13,6 +13,7 @@ import TwoFactorAuthentication from "./SettingsComponents/TwoFactorAuthenticatio
 import TransferCode from "./SettingsComponents/TransferCode";
 import PrivateKey from "./SettingsComponents/PrivateKey";
 import WorkSection from "./SettingsComponents/WorkSection";
+
 const Settings = () => {
   return (
     <Container>
