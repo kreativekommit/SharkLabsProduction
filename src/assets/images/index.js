@@ -16,6 +16,8 @@ import rewardsCard from "./rewards-card.jpeg";
 import voiceCard from "./voice-card.jpeg";
 import roadmap from "./roadmap.webp";
 
+import connectDiscord from "./connect_discord.png";
+export const ConnectDiscord = connectDiscord;
 export const LogoDark = logoDark;
 export const LogoLight = logoLight;
 export const HeroBanner = heroBanner;
