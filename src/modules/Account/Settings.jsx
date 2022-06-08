@@ -12,7 +12,7 @@ import DeleteAccount from "./SettingsComponents/DeleteAccount";
 import TwoFactorAuthentication from "./SettingsComponents/TwoFactorAuthentication";
 import TransferCode from "./SettingsComponents/TransferCode";
 import PrivateKey from "./SettingsComponents/PrivateKey";
-
+import WorkSection from "./SettingsComponents/WorkSection";
 const Settings = () => {
   return (
     <Container>
@@ -21,82 +21,157 @@ const Settings = () => {
         <Row className="mx-auto">
           <Col sm={3}>
             <Nav variant="pills" className="flex-column">
-              <h5 className="text-muted px-3 mt-3 text-capitalize pb-2 border-bottom">account</h5>
+              <h5 className="text-muted px-3 mt-3 text-capitalize pb-2 border-bottom">
+                account
+              </h5>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="ProfilePicture">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="ProfilePicture"
+                >
                   Profile Picture
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="DisplayName">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="WorkSection"
+                >
+                  Work Section
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="DisplayName"
+                >
                   Display Name
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="AccountPassword">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="AccountPassword"
+                >
                   Account Password
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="Email">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="Email"
+                >
                   Email
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="PhoneNumber">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="PhoneNumber"
+                >
                   Phone Number
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="NodeInfo">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="NodeInfo"
+                >
                   Node Info
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="Discord">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="Discord"
+                >
                   Discord
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="Notifications">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="Notifications"
+                >
                   Notifications
                 </Nav.Link>
               </Nav.Item>
-              <h5 className="text-muted px-3 mt-3 text-capitalize pb-2 border-bottom">security</h5>
+              <h5 className="text-muted px-3 mt-3 text-capitalize pb-2 border-bottom">
+                security
+              </h5>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="TwoFactor">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="TwoFactor"
+                >
                   Two-Factor Authentication
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="TransferCode">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="TransferCode"
+                >
                   Transfer Code
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="PrivateKey">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="PrivateKey"
+                >
                   Private Key
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="DeleteAccount">
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="DeleteAccount"
+                >
                   Delete Account
                 </Nav.Link>
               </Nav.Item>
-              <h5 className="text-muted px-3 mt-3 text-capitalize pb-2 border-bottom">support</h5>
+              <h5 className="text-muted px-3 mt-3 text-capitalize pb-2 border-bottom">
+                support
+              </h5>
               <Nav.Item>
-                <Link to="/contact-support" className="text-capitalize nav-link">
+                <Link
+                  to="/contact-support"
+                  className="text-capitalize nav-link"
+                >
                   Submit a ticket
                 </Link>
               </Nav.Item>
               <Nav.Item>
-                <a className="text-capitalize nav-link" href="https://support.track.games/" target="_self">
+                <a
+                  className="text-capitalize nav-link"
+                  href="https://support.track.games/"
+                  target="_self"
+                >
                   Support Center
                 </a>
               </Nav.Item>
               <div className="border-bottom pb-2"></div>
               <Nav.Item>
-                <Nav.Link className="text-capitalize" role="button" eventKey="logout" disabled>
+                <Nav.Link
+                  className="text-capitalize"
+                  role="button"
+                  eventKey="logout"
+                  disabled
+                >
                   logout
                 </Nav.Link>
               </Nav.Item>
@@ -106,6 +181,9 @@ const Settings = () => {
             <Tab.Content>
               <Tab.Pane eventKey="ProfilePicture">
                 <ProfilePicture />
+              </Tab.Pane>
+              <Tab.Pane eventKey="WorkSection">
+                <WorkSection />
               </Tab.Pane>
               <Tab.Pane eventKey="DisplayName">
                 <DisplayName />
