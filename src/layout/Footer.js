@@ -70,7 +70,7 @@ const Footer = () => {
               </li>
               <li>
                 <button className="underline transition hover:text-white">
-                  Blog
+                  Blog (TBA)
                 </button>
               </li>
               <li>

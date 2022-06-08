@@ -1,7 +1,7 @@
 const PrivacyPolicy = () => {
   return (
     <div className="container p-16" style={{ fontFamily: "Montserrat" }}>
-      <h1 className="text-5xl">Privacy Policy for Shark Labs</h1>
+      <h1 className="text-5xl">Privacy Policy</h1>
       <p className="my-6 font-normal">
         This Privacy Policy, as amended or otherwise changed from time to time
         (this “Privacy Policy”), explains the manner in which Blockchain Game

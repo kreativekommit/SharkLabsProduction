@@ -1,7 +1,7 @@
 const TermsOfUse = () => {
   return (
     <div className="container p-16" style={{ fontFamily: "Montserrat" }}>
-      <h1 className="text-5xl">SharkLabs: Terms & Conditions</h1>
+      <h1 className="text-5xl">Terms & Conditions </h1>
       <p className="my-6 font-normal">
         These Terms and Conditions constitute the User Agreement and Terms of
         Service (hereafter the “Terms & Conditions”) between Blockchain Game

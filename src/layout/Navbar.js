@@ -91,7 +91,7 @@ export default function Navbar() {
               <a
                 rel="noopener noreferrer"
                 className="capitalize hover:text-primary font-WorkSans group relative transition"
-                href="https://socekt-game.vercel.app/"
+                href="#"
                 target="_blank"
               >
                 game
