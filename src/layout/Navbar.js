@@ -141,7 +141,7 @@ export default function Navbar() {
               </li>
               <li className="ml-3">
                 <a
-                  href="/"
+                  href="https://twitter.com/Sharklabs2022"
                   target="_blank"
                   className="transition text-brown-500 hover:text-black"
                 >

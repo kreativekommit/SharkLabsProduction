@@ -145,7 +145,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://twitter.com/"
+                  href="https://twitter.com/Sharklabs2022"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
