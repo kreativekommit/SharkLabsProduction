@@ -36,7 +36,7 @@ const Home = () => {
   const [imageZoomedIn, setImageZoomedIn] = useState(false);
 
   return (
-    <main className="px-5 pb-5 pb-0">
+    <main className="px-5 pb-5 pb-0 sm:px-4">
       <div className="grid text-center rounded-t-md overflow-hidden">
         <div className="col-start-1 row-start-1">
           <img src={HeroBanner} alt="Shark Tank" />
@@ -308,7 +308,7 @@ const Home = () => {
           </div>
           <Element
             name="purchase"
-            className="flex justify-end p-6 py-10 sm:p-14 lg:pl-28 lg:pr-24 lg:py-36"
+            className="flex justify-center md:justify-end p-6 py-10 sm:p-14  lg:pl-28 lg:pr-24 lg:py-36"
           >
             <div className="text-brown-100 lg:w-1/2 lg:pl-20">
               <h2 className="mb-8 text-3xl sm:text-5xl headings-font">
