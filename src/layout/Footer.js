@@ -103,7 +103,7 @@ const Footer = () => {
             <ul className="flex space-x-6 mb-6">
               <li>
                 <a
-                  href="https://opensea.io/collection/lazy-lions"
+                  href="https://opensea.io"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-brown-500 hover:text-white"
