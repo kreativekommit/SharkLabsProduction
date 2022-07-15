@@ -133,7 +133,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://discord.gg/KrDdaGhY7b"
+                  href="https://discord.gg/shark-labs"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
