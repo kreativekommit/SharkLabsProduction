@@ -132,7 +132,7 @@ export default function Navbar() {
               <li className="ml-3">
                 <a
                   rel="noopener noreferrer"
-                  href="https://discord.gg/KrDdaGhY7b"
+                  href="https://discord.gg/shark-labs"
                   target="_blank"
                   className="transition p-1.5 text-white flex items-center rounded-full bg-brown-500 hover:bg-black"
                 >
