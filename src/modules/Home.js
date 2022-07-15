@@ -515,7 +515,7 @@ const Home = () => {
               <Card
                 cardImage={NetworkCard}
                 cardTitle="Expand your network"
-                cardDescription="Joining the Shark Lab community opens the door to a global network of like-minded people from all walks of life. Our community is filled with welcoming individuals who love to connect with newcomers."
+                cardDescription="Joining the Shark Labs community opens the door to a global network of like-minded people from all walks of life. Our community is filled with welcoming individuals who love to connect with newcomers."
                 cardColor="#bb3dbe"
               />
             </div>
@@ -541,7 +541,7 @@ const Home = () => {
           </div>
           <div className="pb-24 pt-4 px-10 mb-28 -mx-5 text-center bg-brown-900">
             <h3 className="mt-16 mb-16 text-4xl text-brown-100 headings-font sm:text-5xl">
-              Shark Tank in the Metaverse
+              Shark Labs in the Metaverse
             </h3>
             {/* <ul className="flex justify-center flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-12 lg:space-x-24">
               <li>
@@ -592,8 +592,8 @@ const Home = () => {
                   : "cursor-zoom-in translate-y-6"
               } transition ease-in-out duration-500`}
               src={Roadmap}
-              alt="Shark Tank roadmap"
-              title="Shark Tank roadmap"
+              alt="Shark Labs roadmap"
+              title="Shark Labs roadmap"
               onClick={() => {
                 setImageZoomedIn(!imageZoomedIn);
               }}
