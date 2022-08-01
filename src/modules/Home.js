@@ -29,6 +29,7 @@ import {
 } from "../assets/images";
 import glitchVideoMP4 from "../assets/videos/glitch.mp4";
 import glitchVideoWEBM from "../assets/videos/glitch.webm";
+import animationVideo from "../assets/videos/Sharklabs - ANIMATION Standard.mp4"
 import { Element, Link as SmothLink } from "react-scroll/modules";
 import Slider from "../shared/components/Slider";
 
@@ -577,28 +578,19 @@ const Home = () => {
               </li>
             </ul> */}
           </div>
-          <Element
-            name="roadmap"
-            className={` ${
-              imageZoomedIn
-                ? "fixed z-50 w-full h-screen left-0 bg-white top-0"
-                : "relative -mx-5"
-            } scroll-mt-28 transition ease-in-out duration-500`}
-          >
-            <img
-              className={`${
-                imageZoomedIn
-                  ? "cursor-zoom-out fixed z-50 top-0 -translate-y-6 w-full h-full left-0 right-0 object-contain"
-                  : "cursor-zoom-in translate-y-6"
-              } transition ease-in-out duration-500`}
-              src={Roadmap}
-              alt="Shark Labs roadmap"
-              title="Shark Labs roadmap"
-              onClick={() => {
-                setImageZoomedIn(!imageZoomedIn);
-              }}
-            />
-          </Element>
+          <div>
+          <video
+              width="1164"
+              height="412"
+              autoPlay={true}
+              loop
+              muted
+              playsInline
+              className="col-start-1 row-start-1 w-full"
+            >
+              <source src={animationVideo} type="video/mp4" />
+            </video>
+            </div>
         </div>
       </div>
     </main>
